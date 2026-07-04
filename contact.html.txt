@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Research Learning Centre</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">ResearchLearningHub</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2 class="section-title">Connect With Us</h2>
+    <p class="center-text">Ready to elevate your research or book an institutional workshop? Send us a message below.</p>
+    
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Academic / Personal Email" required>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Research Domain (e.g., Social Sciences, Data Engineering)">
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Tell us about your project requirements or challenges..." required></textarea>
+      </div>
+      <button type="submit" class="btn" style="border:none; width:100%; cursor:pointer;">Submit Request</button>
+    </form>
+  </section>
+
+  <footer><p>© 2026 Research Learning Centre. All Rights Reserved.</p></footer>
+</body>
+</html>

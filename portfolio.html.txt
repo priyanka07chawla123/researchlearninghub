@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Research Learning Centre</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">ResearchLearningHub</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2 class="section-title">Our Academic Footprint</h2>
+    <p class="center-text">A showcase of the major milestones, published projects, and institutional training programs successfully handled by our center.</p>
+    
+    <div class="grid">
+      <div class="card">
+        <h3>50+ Scopus Articles</h3>
+        <p>We have successfully guided scholars through deep manuscript rewrites resulting in high-tier international indexing.</p>
+      </div>
+      <div class="card">
+        <h3>Institutional Bootcamps</h3>
+        <p>Conducted over 30+ regional workshops detailing grant proposal strategies and research ethics frameworks.</p>
+      </div>
+      <div class="card">
+        <h3>PhD Achievements</h3>
+        <p>Over 120+ research scholars have successfully completed and defended their thesis designs via our support.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer><p>© 2026 Research Learning Centre. All Rights Reserved.</p></footer>
+</body>
+</html>

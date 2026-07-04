@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Research Learning Centre</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">ResearchLearningHub</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2 class="section-title">Who We Are</h2>
+    <p class="center-text">Founded by a network of seasoned academicians, our Research Learning Centre is dedicated to cultivating a world-class environment for research training. We cater specifically to PhD candidates, university faculty, and research-focused corporate professionals.</p>
+    
+    <h2 class="section-title" style="margin-top:60px;">Our Vision & Mission</h2>
+    <p class="center-text">To build a global academic community where technical, analytical, and writing skills are never a barrier to publishing high-impact discoveries.</p>
+  </section>
+
+  <footer><p>© 2026 Research Learning Centre. All Rights Reserved.</p></footer>
+</body>
+</html>

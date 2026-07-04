@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Research Learning Centre</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">ResearchLearningHub</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2 class="section-title">Our Expert Services</h2>
+    <p class="center-text">We provide specialized consultation and hands-on training to refine your research output.</p>
+    
+    <div class="grid">
+      <div class="card">
+        <h3>Research Mentorship</h3>
+        <p>One-on-one consultation regarding design framework, problem formulation, and choosing appropriate methodologies.</p>
+      </div>
+      <div class="card">
+        <h3>Statistical Computing</h3>
+        <p>In-depth analytical support utilizing cutting-edge software suites including SPSS, R-Programming, Python, and NVivo.</p>
+      </div>
+      <div class="card">
+        <h3>Editorial & Formatting</h3>
+        <p>Thorough technical proofreading, reference formatting (APA, Harvard, IEEE), and structural plagiarism clearance.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer><p>© 2026 Research Learning Centre. All Rights Reserved.</p></footer>
+</body>
+</html>

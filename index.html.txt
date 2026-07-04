@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Research Learning Centre</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">ResearchLearningHub</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Empowering Scholars. Elevating Research.</h1>
+    <p>A premier training, support, and guidance hub for academic excellence.</p>
+    <a href="contact.html" class="btn">Get Started Today</a>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Our Core Purpose</h2>
+    <p class="center-text">To bridge the gap between complex methodologies and flawless academic execution, guiding researchers and faculty members to achieve global publication benchmarks.</p>
+    
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <h3>Structured Guidance</h3>
+        <p>Step-by-step navigation through the complex web of literature reviews and hypothesis building.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Data Analysis</h3>
+        <p>Transforming raw metrics into comprehensive research insights using advanced analytical frameworks.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏆</div>
+        <h3>Global Standards</h3>
+        <p>Ensuring your manuscript aligns directly with peer-reviewed publication indexes like Scopus and WoS.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer><p>© 2026 Research Learning Centre. All Rights Reserved.</p></footer>
+</body>
+</html>
